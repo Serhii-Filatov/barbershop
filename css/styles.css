@@ -1,7 +1,175 @@
+/* Цвет подзаголовка  rgba(157, 164, 189, 0.6); */
+/* цвет текста  #9da4bd;*/
+
 :root {
+  /* fonts */
+  --first-font: 'Open Sans';
+  --second-font: 'Raleway';
+
+  /* text colors */
+  /* ? */
+  --first-txt-cl: #555555;
+  --main-light-theme: #303030;
+  --main-dark-theme: #ffffff;
+  --accent-cl: #ff6c00;
+  /* background colors */
+  /* others */
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
+  font-family: var(--first-font, sans-serif);
+  font-size: 18px;
+  line-height: 1.67;
 }
+
+/* ?common styles */
+.link {
+  font-family: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.list {
+  list-style: none;
+}
+
+.btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--accent-cl);
+}
+
+.btn-mode-light {
+  color: var(--main-light-theme);
+}
+.btn-mode-dark {
+  color: var(--main-dark-theme);
+}
+
+/* ========================================= */
+.menu-link {
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+
+  color: var(--main-dark-theme);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-cl);
+}
+/* ========================================= */
+
+/* ========================================= */
+.social-link {
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+
+  color: var(--main-light-theme);
+}
+
+.social-link:hover,
+.social-link:focus {
+  color: var(--accent-cl);
+}
+/* ========================================= */
+/* ?common styles */
+
+/* * Header section * */
+
+/* logo  */
+.header {
+  /* ! */
+  background-color: #191c26;
+}
+
+.logo {
+}
+
+.logo-img {
+}
+/* logo */
+
+/* navigation */
+.header-nav {
+}
+
+.nav-list {
+}
+
+.nav-list-item {
+}
+
+.nav-list-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+
+  color: var(--main-dark-theme);
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus {
+  color: var(--accent-cl);
+}
+
+/* navigation */
+
+/* group */
+.header-group {
+}
+
+.header-contact {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: var(--main-dark-theme);
+}
+
+.header-contact:hover,
+.header-contact:focus {
+  color: var(--accent-cl);
+}
+
+.modal-btn {
+  background-color: var(--main-light-theme);
+}
+
+/* group */
+
+/* ========================================= */
+
+/* * Hero section * */
+
+.hero {
+}
+
+/* * About Us section * */
+
+/* * Services section * */
+
+/* * Benefits section * */
+
+/* * Our Team section * */
+
+/* * Gallery section * */
+
+/* * Contacts section * */
+
+/* * Footer section * */
