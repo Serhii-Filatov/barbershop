@@ -5,7 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Барбершоп у Києві</title>
-    <!-- Fonts -->
+
+    <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,12 +14,12 @@
       rel="stylesheet"
     />
 
-    <!-- My styles -->
+    <!-- STYLES -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
-    <!-- Header section -->
+    <!-- HEADER -->
     <header class="header">
       <a class="logo" href="./index.html">
         <img
@@ -30,19 +31,19 @@
         />
       </a>
 
-      <nav class="header-nav">
-        <ul class="nav-list list">
-          <li class="nav-list-item">
-            <a class="nav-list-link link" href="#about-us">Про нас</a>
+      <nav class="header-menu">
+        <ul class="menu list">
+          <li class="menu-item">
+            <a class="menu-link link" href="#about-us">Про нас</a>
           </li>
-          <li class="nav-list-item">
-            <a class="nav-list-link link" href="#services">Послуги та ціни</a>
+          <li class="menu-item">
+            <a class="menu-link link" href="#services">Послуги та ціни</a>
           </li>
-          <li class="nav-list-item">
-            <a class="nav-list-link link" href="#our-team">Майстри</a>
+          <li class="menu-item">
+            <a class="menu-link link" href="#our-team">Майстри</a>
           </li>
-          <li class="nav-list-item">
-            <a class="nav-list-link link" href="#contacts">Контакти</a>
+          <li class="menu-item">
+            <a class="menu-link link" href="#contacts">Контакти</a>
           </li>
         </ul>
       </nav>
@@ -51,21 +52,20 @@
         <a class="header-contact link" href="tel:+380441111111"
           >+38 044 111 11 11</a
         >
-        <button class="modal-btn btn-mode-dark btn" type="button">
+        <button class="modal-btn btn-theme-dark btn" type="button">
           онлайн-запис
         </button>
       </div>
     </header>
 
-    <!-- Main section -->
     <main>
-      <!-- Hero section -->
+      <!-- HERO -->
       <section class="hero">
-        <div>
-          <ul class="social-list list">
-            <li class="social-item">
+        <div class="hero-left-side">
+          <ul class="media-list list">
+            <li class="media-item">
               <a
-                class="social-link link"
+                class="media-link link"
                 href="https://www.instagram.com/"
                 target="_blank"
                 rel="noreferrer noopener"
@@ -73,9 +73,9 @@
                 >Instagram</a
               >
             </li>
-            <li class="social-item">
+            <li class="media-item">
               <a
-                class="social-link link"
+                class="media-link link"
                 href="https://www.youtube.com/"
                 target="_blank"
                 rel="noreferrer noopener"
@@ -86,10 +86,12 @@
           </ul>
         </div>
 
-        <div>
-          <p lang="en">A hair salon for men in Kyiv</p>
-          <h1 lang="en">BarberShop</h1>
-          <p>
+        <div class="hero-right-side">
+          <p class="suptitle suptitle-theme-dark" lang="en">
+            A hair salon for men in Kyiv
+          </p>
+          <h1 lang="en" class="main-title">BarberShop</h1>
+          <p class="section-description section-description-theme-dark">
             Ми експерти у модних чоловічих стрижках. Працюємо швидко, обережно
             та зі смаком.
           </p>
@@ -102,16 +104,16 @@
 
           <ul class="list">
             <li>
-              <button class="btn-mode-dark btn" type="button">Назад</button>
+              <button class="btn-theme-dark btn" type="button">Назад</button>
             </li>
             <li>
-              <button class="btn-mode-dark btn" type="button">Вперед</button>
+              <button class="btn-theme-dark btn" type="button">Вперед</button>
             </li>
           </ul>
         </div>
       </section>
 
-      <!-- About Us section -->
+      <!-- ABOUT US -->
       <section id="about-us">
         <ul class="list">
           <li>
@@ -133,8 +135,10 @@
         </ul>
 
         <div>
-          <h2>Про нас</h2>
-          <b>Найкращий Барбершоп твого міста</b>
+          <h2 class="suptitle suptitle-theme-light">Про нас</h2>
+          <h3 class="section-title section-title-mode-light">
+            Найкращий Барбершоп твого міста
+          </h3>
           <p>
             Якщо ти хочеш додати у свій образ більше впевненості, тобі точно до
             нас.
@@ -146,14 +150,18 @@
             Тому ми завжди готові вдосконалити кожного, хто до нас приходить!
           </p>
 
-          <button class="btn-mode-light btn" type="button">онлайн-запис</button>
+          <button class="btn-theme-light btn" type="button">
+            онлайн-запис
+          </button>
         </div>
       </section>
 
-      <!-- Services section -->
+      <!-- SERVICES -->
       <section id="services">
-        <p>Проведи час у компанії кращих майстрів</p>
-        <h2>Послуги та ціни</h2>
+        <p class="suptitle suptitle-theme-dark">
+          Проведи час у компанії кращих майстрів
+        </p>
+        <h2 class="section-title section-title-mode-dark">Послуги та ціни</h2>
         <ul class="list">
           <li>
             <ul class="list">
@@ -172,10 +180,10 @@
             </ul>
           </li>
         </ul>
-        <button class="btn-mode-dark btn" type="button">онлайн-запис</button>
+        <button class="btn-theme-dark btn" type="button">онлайн-запис</button>
       </section>
 
-      <!-- Benefits section -->
+      <!-- BENEFITS -->
       <section>
         <ul class="list">
           <li>
@@ -201,8 +209,10 @@
         </ul>
 
         <div>
-          <p>стара традиційна школа</p>
-          <h2>Чому приходять саме до нас?</h2>
+          <p class="suptitle suptitle-theme-light">стара традиційна школа</p>
+          <h2 class="section-title section-title-mode-light">
+            Чому приходять саме до нас?
+          </h2>
           <p>
             Про нас говорять лише добре. Але краще 1 раз побачити і відчути, ніж
             10 разів прочитати.
@@ -210,10 +220,12 @@
         </div>
       </section>
 
-      <!-- Our Team section -->
+      <!-- OUR TEAM -->
       <section id="our-team">
-        <p>для справжніх шанувальників атмосфери</p>
-        <h2>Наші майстри</h2>
+        <p class="suptitle suptitle-theme-light">
+          для справжніх шанувальників атмосфери
+        </p>
+        <h2 class="section-title section-title-mode-light">Наші майстри</h2>
 
         <ul class="list" lang="en">
           <!-- John Smith -->
@@ -380,9 +392,11 @@
         </ul>
       </section>
 
-      <!-- Gallery section -->
+      <!-- GALLERY -->
       <section>
-        <p>Латинською мовою "барба" означає "борода"</p>
+        <p class="suptitle suptitle-theme-light">
+          Латинською мовою "барба" означає "борода"
+        </p>
         <h2 hidden>Галерея робіт</h2>
         <ul class="list">
           <li>
@@ -420,16 +434,16 @@
         </ul>
       </section>
 
-      <!-- Contacts section -->
+      <!-- CONTACTS-->
       <section id="contacts">
         <div>
-          <h2>Онлайн-запис</h2>
+          <h2 class="section-title section-title-mode-da rk">Онлайн-запис</h2>
           <form action=""></form>
-          <button class="btn-mode-dark btn">Відправити</button>
+          <button class="btn-theme-dark btn">Відправити</button>
         </div>
 
         <div>
-          <h2>Контакти</h2>
+          <h2 class="section-title section-title-mode-dark o">Контакти</h2>
 
           <address>
             <ul class="list">
@@ -458,22 +472,22 @@
       </section>
     </main>
 
-    <!-- Footer section -->
+    <!-- FOOTER -->
     <footer>
       <p>&copy; Copyright 2020</p>
-      <ul class="list">
-        <li>
+      <ul class="media-list list">
+        <li class="media-list-item">
           <a
-            class="social-link link"
+            class="media-list-link link"
             href="https://www.instagram.com/"
             target="_blank"
             rel="noopener noreferrer"
             >Instagram</a
           >
         </li>
-        <li>
+        <li class="media-list-item">
           <a
-            class="social-link link"
+            class="media-list-link link"
             href="https://www.youtube.com/"
             target="_blank"
             rel="noopener noreferrer"

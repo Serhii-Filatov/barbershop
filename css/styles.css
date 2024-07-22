@@ -1,20 +1,21 @@
-/* Цвет подзаголовка  rgba(157, 164, 189, 0.6); */
-/* цвет текста  #9da4bd;*/
-
 :root {
-  /* fonts */
+  /* FONTS */
   --first-font: 'Open Sans';
   --second-font: 'Raleway';
 
-  /* text colors */
-  /* ? */
-  --first-txt-cl: #555555;
-  --main-light-theme: #303030;
-  --main-dark-theme: #ffffff;
-  --accent-cl: #ff6c00;
-  /* background colors */
-  /* others */
+  /* TEXT COLORS */
+  --primary-txt-theme-light: #303030;
+  --primary-txt-theme-dark: #ffffff;
+  --secondary-txt-theme-light: #555555;
+  --secondary-txt-theme-dark: #9da4bd;
+  --accent-color: #ff6c00;
+
+  /* BACKGROUND COLORS */
+
+  /* OTHERS */
 }
+
+/* * =================== COMMON STYLES ==================== * */
 
 body {
   font-family: var(--first-font, sans-serif);
@@ -22,7 +23,6 @@ body {
   line-height: 1.67;
 }
 
-/* ?common styles */
 .link {
   font-family: inherit;
   text-decoration: none;
@@ -33,133 +33,171 @@ body {
   list-style: none;
 }
 
+/* * ====================================================== * */
+
+/* * ===================== COMPONENTS ===================== * */
+/* BUTTON */
 .btn {
   font-family: inherit;
-  font-weight: 600;
   font-size: 12px;
+  font-weight: 600;
   line-height: 1.33;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 
+  background-color: transparent;
+
   cursor: pointer;
 }
-
 .btn:hover,
 .btn:focus {
-  background-color: var(--accent-cl);
+  background-color: var(--accent-color);
+}
+.btn-theme-light {
+  color: var(--primary-txt-theme-light);
+}
+.btn-theme-dark {
+  color: var(--primary-txt-theme-dark);
 }
 
-.btn-mode-light {
-  color: var(--main-light-theme);
-}
-.btn-mode-dark {
-  color: var(--main-dark-theme);
-}
-
-/* ========================================= */
-.menu-link {
-  font-weight: 600;
-  font-size: 12px;
-  letter-spacing: 0.1em;
-
-  color: var(--main-dark-theme);
-}
-
-.menu-link:hover,
-.menu-link:focus {
-  color: var(--accent-cl);
-}
-/* ========================================= */
-
-/* ========================================= */
-.social-link {
-  font-weight: 600;
+/* MEDIA */
+.media-link {
   font-size: 11px;
+  font-weight: 600;
+  line-height: 1.36;
   letter-spacing: 0.2em;
 
-  color: var(--main-light-theme);
+  color: var(--primary-txt-theme-light);
+}
+.media-link:hover,
+.media-link:focus {
+  color: var(--accent-color);
 }
 
-.social-link:hover,
-.social-link:focus {
-  color: var(--accent-cl);
+/* SUPTITLE */
+.suptitle {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
-/* ========================================= */
-/* ?common styles */
+.suptitle-theme-dark {
+  color: var(--primary-txt-theme-dark);
+}
+.suptitle-theme-light {
+  color: var(--secondary-txt-theme-light);
+}
 
-/* * Header section * */
+/* SECTION TITLE */
+.section-title {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+}
+.section-title-mode-light {
+  color: var(--primary-txt-theme-light);
+}
+.section-title-mode-dark {
+  color: var(--primary-txt-theme-dark);
+}
 
-/* logo  */
+/* SECTION DESCRIPTION */
+.section-description {
+  font-size: 18px;
+  line-height: 1.66;
+  letter-spacing: 0.02em;
+}
+
+.section-description-theme-light {
+  color: var(--secondary-txt-theme-light);
+}
+.section-description-theme-dark {
+  color: var(--secondary-txt-theme-dark);
+}
+
+/* * ====================================================== * */
+
+/* * ======================= HEADER ======================= * */
+
 .header {
   /* ! */
   background-color: #191c26;
 }
 
+/* LOGO */
 .logo {
 }
 
 .logo-img {
 }
-/* logo */
 
-/* navigation */
-.header-nav {
+/* NAVIGATION */
+.header-menu {
 }
 
-.nav-list {
+.menu {
 }
 
-.nav-list-item {
+.menu-item {
 }
 
-.nav-list-link {
-  font-weight: 600;
+.menu-link {
   font-size: 12px;
+  font-weight: 600;
   line-height: 1.33;
   letter-spacing: 0.1em;
 
-  color: var(--main-dark-theme);
+  color: var(--primary-txt-theme-dark);
 }
 
-.nav-list-link:hover,
-.nav-list-link:focus {
-  color: var(--accent-cl);
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
 }
 
-/* navigation */
-
-/* group */
+/* GROUP */
 .header-group {
 }
 
 .header-contact {
-  font-weight: 600;
   font-size: 12px;
+  font-weight: 600;
   line-height: 1.33;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 
-  color: var(--main-dark-theme);
+  color: var(--primary-txt-theme-dark);
 }
-
 .header-contact:hover,
 .header-contact:focus {
-  color: var(--accent-cl);
+  color: var(--accent-color);
 }
 
+/* MODAL WINDOW BUTTON */
 .modal-btn {
-  background-color: var(--main-light-theme);
 }
 
-/* group */
+/* * ====================================================== * */
 
-/* ========================================= */
-
-/* * Hero section * */
+/* * ======================== HERO ======================== * */
 
 .hero {
+  /* ! */
+  background-color: #191c26;
 }
 
+.main-title {
+  font-family: var(--second-font, sans-serif);
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+
+  color: var(--primary-txt-theme-dark);
+}
+/* * ====================================================== * */
 /* * About Us section * */
 
 /* * Services section * */
