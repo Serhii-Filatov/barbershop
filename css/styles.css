@@ -186,6 +186,14 @@ body {
   background-color: #191c26;
 }
 
+.main-title {
+  font-family: var(--second-font, sans-serif);
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+  color: var(--primary-txt-theme-dark);
+}
+
 /* * ======================= ABOUT ======================== * */
 .about-text {
   font-size: 14px;
