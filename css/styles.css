@@ -82,34 +82,33 @@ body {
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
-.suptitle-theme-dark {
-  color: var(--primary-txt-theme-dark);
-}
 .suptitle-theme-light {
-  color: var(--secondary-txt-theme-light);
+  color: var(--primary-txt-theme-light);
+}
+.suptitle-theme-dark {
+  color: rgba(157, 164, 189, 0.6);
 }
 
 /* SECTION TITLE */
-.section-title {
+.title {
+  font-family: var(--second-font, sans-serif);
   font-size: 42px;
   font-weight: 700;
   line-height: 1.16;
   letter-spacing: 0.05em;
 }
-.section-title-mode-light {
+.title-theme-light {
   color: var(--primary-txt-theme-light);
 }
-.section-title-mode-dark {
+.title-theme-dark {
   color: var(--primary-txt-theme-dark);
 }
 
 /* SECTION DESCRIPTION */
 .section-description {
   font-size: 18px;
-  line-height: 1.66;
   letter-spacing: 0.02em;
 }
-
 .section-description-theme-light {
   color: var(--secondary-txt-theme-light);
 }
@@ -151,7 +150,6 @@ body {
 
   color: var(--primary-txt-theme-dark);
 }
-
 .menu-link:hover,
 .menu-link:focus {
   color: var(--accent-color);
@@ -188,26 +186,131 @@ body {
   background-color: #191c26;
 }
 
-.main-title {
-  font-family: var(--second-font, sans-serif);
-  font-size: 72px;
-  font-weight: 700;
-  line-height: 1.18;
-  letter-spacing: 0.05em;
+/* * ======================= ABOUT ======================== * */
+.about-text {
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+  color: var(--secondary-txt-theme-light);
+}
 
-  color: var(--primary-txt-theme-dark);
+/* * ====================================================== * */
+
+/* * ====================== SERVICES ====================== * */
+.services {
+  /* ! */
+  background-color: #191c26;
+}
+
+.services-table-name,
+.services-table-price {
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  color: var(--secondary-txt-theme-dark);
+}
+
+/* * ====================================================== * */
+
+/* * ==================== BENEFITS ======================== * */
+.benefits-item-quantity {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.36;
+  letter-spacing: 0.05em;
+  color: var(--primary-txt-theme-light);
+}
+
+.benefits-item-description {
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.36;
+  color: var(--primary-txt-theme-light);
 }
 /* * ====================================================== * */
-/* * About Us section * */
 
-/* * Services section * */
+/* * ==================== OUR TEAM ======================== * */
+.employees-name {
+  line-height: 1.37;
+  letter-spacing: 0.02em;
+  color: var(--primary-txt-theme-light);
+}
 
-/* * Benefits section * */
+.employees-position {
+  font-size: 14px;
+  line-height: 1.36;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+/* * ====================================================== * */
 
-/* * Our Team section * */
+/* * ====================== GALLERY ======================= * */
 
-/* * Gallery section * */
+/* * ====================================================== * */
 
-/* * Contacts section * */
+/* * ==================== CONTACT FORM ==================== * */
+.contact-form {
+  /* ! */
+  background-color: #191c26;
+}
 
-/* * Footer section * */
+.contact-form-title {
+  font-family: var(--second-font, sans-serif);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.36;
+  letter-spacing: 0.05em;
+  color: var(--primary-txt-theme-dark);
+
+  opacity: 0.6;
+}
+
+/* * ====================================================== * */
+
+/* * ================= CONTACT INFORMATION ================ * */
+.contact-info {
+  /* ! */
+  background-color: #191c26;
+}
+.contact-link {
+  font-family: inherit;
+  font-style: normal;
+  letter-spacing: 0.02em;
+  color: var(--secondary-txt-theme-dark);
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-color);
+}
+
+.contact-info-title {
+  font-family: var(--second-font, sans-serif);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.6;
+  letter-spacing: 0.05em;
+  color: var(--primary-txt-theme-dark);
+}
+
+.contact-data-title {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--primary-txt-theme-dark);
+}
+
+.contact-date-time {
+  letter-spacing: 0.02em;
+  color: var(--secondary-txt-theme-dark);
+}
+
+/* * ====================================================== * */
+
+/* * ======================= FOOTER ======================= * */
+.footer-copyright {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  color: var(--secondary-txt-theme-dark);
+}
