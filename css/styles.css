@@ -163,7 +163,6 @@ body {
   font-weight: 600;
   line-height: 1.33;
   letter-spacing: 0.1em;
-  text-transform: uppercase;
 
   color: var(--primary-txt-theme-dark);
 }
