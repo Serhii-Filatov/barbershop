@@ -16,21 +16,39 @@
 }
 
 /* * =================== COMMON STYLES ==================== * */
-
 body {
   font-family: var(--first-font), sans-serif;
   font-size: 18px;
   line-height: 1.67;
 }
 
-.link {
-  font-family: inherit;
-  text-decoration: none;
-  cursor: pointer;
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
 }
 
 .list {
   list-style: none;
+}
+
+.link {
+  font-family: inherit;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /* * ====================================================== * */
@@ -180,6 +198,8 @@ body {
 /* * ======================== HERO ======================== * */
 
 .hero {
+  outline: 1px solid #ff6c00;
+
   background-color: rgba(25, 28, 38, 0.2);
 }
 
