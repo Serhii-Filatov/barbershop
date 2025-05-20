@@ -1,3 +1,3 @@
-# barbershop
+# Barber Shop
 
-# HTML
+# Barbershop (Русский макет с переводом на украинский)
